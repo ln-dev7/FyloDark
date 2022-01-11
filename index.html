@@ -1,30 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">/*-
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <script src="app.js" defer></script>
-  
+
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
 
+  <nav class="navigation">
+    <div class="card">
+      <div class="navigation-logo">
+        <img src="images/logo.svg" alt="logo">
+      </div>
+      <ul class="navigation-links">
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
+    </div>
+  </nav>
 
+  <header class="header">
+    <div class="card">
+      <img src="images/illustration-intro.png" alt="illustration-into">
+      <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quae nemo repudiandae velit facilis veniam
+        autem quas ipsum tenetur magni, est nam commodi repellat officiis.</p>
+      <button>Get started</button>
+    </div>
+  </header>
 
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://lndev.me">LN Dev</a>.
     </p>
   </footer>
 </body>
+
 </html>

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&family=Raleway:wght@400;700&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background: #1c2431;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation .card {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation-links li a {
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: center;
+  background: url(images/bg-curvy-desktop.svg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: -90%;
+}
+.header .card {
+  width: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 1rem 0;
+  font-family: "Raleway", sans-serif;
+}
+.header p {
+  text-align: center;
+  padding: 1.5rem 0;
+  line-height: 1.5rem;
+}
+.header button {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 3rem;
+  border-radius: 50px;
+  background: #65e2d9;
+}/*# sourceMappingURL=style.css.map */
