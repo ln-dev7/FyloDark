@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&family=Raleway:wght@400;700&display=swap');
+
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Raleway', sans-serif;
+
+$DarkBlueintro: hsl(217, 28%, 15%);
+$DarkBlueMain: hsl(218, 28%, 13%);
+$DarkBlueFooter: hsl(216, 53%, 9%);
+$DarkBlueTest: hsl(219, 30%, 18%);
+
+// Accent
+
+$Cyan: hsl(176, 68%, 64%);
+$Blue: hsl(198, 60%, 50%);
+$LightRed: hsl(0, 100%, 63%);
+
+// Neutral
+
+$White: hsl(0, 0%, 100%);
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: $dark;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
